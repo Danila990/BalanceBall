@@ -104,6 +104,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614b1a1f9ad973b4488eaffd3c508bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _isMobile: 1
+  _isMobile: 0
   _pcInputServicePrefab: {fileID: 6124685244796208776, guid: 22d722ad91197674abba45bee507f93e, type: 3}
   _mobileInputServicePrefab: {fileID: 483271046979401103, guid: 9c894e1e2e3a73d41bfc77776607cf93, type: 3}
