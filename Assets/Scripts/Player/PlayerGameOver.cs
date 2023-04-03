@@ -27,8 +27,7 @@ public class PlayerGameOver : MonoBehaviour
         {
             _audioManager.PlayPlayerWaterSound();
             StartCoroutine(PlayWaterSound());
-        }
-            
+        }   
     }
 
     private void OnTriggerExit(Collider other)

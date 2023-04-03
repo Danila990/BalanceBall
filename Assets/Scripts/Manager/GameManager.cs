@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
 
     public void LoadNextLevel() 
     {
-        if (_currentScene + 1 <= 20)
+        if (_currentScene + 1 <= 10)
         {
             if(_currentScene >= _levelsComplete)
             {

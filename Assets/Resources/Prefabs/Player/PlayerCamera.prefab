@@ -98,7 +98,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fa0676d5444c0a4baef50a0e0fe91eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dragingRange: 150
+  _minDragingRange: 125
+  _maxDragingRange: 700
 --- !u!114 &8803565802052828346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,6 +114,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _currentPosition: 0
   _targetCharacterBody: {fileID: 0}
-  _cameraOffset: {x: 5, y: 3}
-  _cameraRotateSpeed: 10
-  _cameraOffsetSpeed: 10
+  _cameraOffset: {x: 3, y: 2}
+  _cameraRotateSpeed: 4
+  _cameraOffsetSpeed: 4
